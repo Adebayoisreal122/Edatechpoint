@@ -1,0 +1,117 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+  /* NAVBAR */
+
+
+  .navbar {
+    background-color: #343a40;
+    color: rgb(0, 0, 0);
+  }
+  
+  .navbar a {
+    color: #1b38dd;
+    text-decoration: none;
+  }
+  
+  .navbar a:hover {
+    color: #6edfd9;
+    text-decoration: none;
+  }
+  
+  .navbar .btn-floating {  
+    font-size: 23px;
+  }
+  
+  .navbar .btn-floating:hover {
+    color: #ffc107;
+  }
+  
+  .navbar hr {
+    background-color: #ffffff;
+    opacity: 0.3;
+  }
+  
+  .navbar .dropdown-menu {
+    background-color: #343a40;
+    color: white;
+  }
+  
+  .navbar .dropdown-menu a {
+    color: #ffc107;
+    text-decoration: none;
+  }
+  
+  .navbar .dropdown-menu a:hover {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .navbar .dropdown-menu hr {
+    background-color: #ffffff;
+    opacity: 0.3;
+  }
+  
+  .navbar .dropdown-menu .btn-floating {
+    font-size: 23px;
+  }
+  
+  .navbar .dropdown-menu .btn-floating:hover {
+    color: #ffc107;
+  }
+  
+  .navbar .dropdown-menu .btn-floating:focus {
+    box-shadow: none;
+  }
+  
+  .navbar .dropdown-menu .btn-floating:active {
+    box-shadow: none;
+  }
+  
+ 
+
+
+
+.carousel-item img {
+    height: 500px; /* Set your desired height */
+    object-fit: cover; /* Ensures the image covers the container without stretching */
+    width: 100%; /* Ensures the image takes the full width */
+  }
+
+
+
+  /* FOOTER */
+
+
+  footer {
+    background-color: #343a40;
+    color: white;
+  }
+  
+  footer a {
+    color: #ffc107;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  footer .btn-floating {
+    font-size: 23px;
+  }
+  
+  footer .btn-floating:hover {
+    color: #ffc107;
+  }
+  
+  footer hr {
+    background-color: #ffffff;
+    opacity: 0.3;
+  }
