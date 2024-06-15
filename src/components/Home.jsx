@@ -14,29 +14,29 @@ function Home() {
   </div>
   <div className="carousel-inner">
     <div className="carousel-item active">
-      <img src="/images/zx.jfif" className="d-block w-100" alt="..."/>
-      <div className="carousel-caption d-none d-md-block">
+      <img src="/images/proper.webp" className="d-block w-100" alt="..."/>
+      <div className="carousel-caption ">
         <h5>First slide label</h5>
         <p>Some representative placeholder content for the first slide.</p>
       </div>
     </div>
     <div className="carousel-item">
       <img src="/images/cde.webp" className="d-block w-100" alt="..."/>
-      <div className="carousel-caption d-none d-md-block">
+      <div className="carousel-caption ">
         <h5>Second slide label</h5>
         <p>Some representative placeholder content for the second slide.</p>
       </div>
     </div>
     <div className="carousel-item">
       <img src="/images/surv3.jpg" className="d-block w-100" alt="..."/>
-      <div className="carousel-caption d-none d-md-block">
+      <div className="carousel-caption ">
         <h5>Third slide label</h5>
         <p>Some representative placeholder content for the second slide.</p>
       </div>
     </div>
     <div className="carousel-item">
       <img src="/images/proper.webp" className="d-block w-100" alt="..."/>
-      <div className="carousel-caption d-none d-md-block">
+      <div className="carousel-caption ">
         <h5>Forth slide label</h5>
         <p>Some representative placeholder content for the third slide.</p>
       </div>

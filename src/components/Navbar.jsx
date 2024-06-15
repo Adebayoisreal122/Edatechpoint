@@ -24,11 +24,11 @@ function Navbar() {
     <>
     
 
-<nav className="navbar navbar-expand-lg border border-bottom border-body p-1 bg-warning">
+<nav className="navbar navbar-expand-lg border border-bottom border-body p-1 bg-primary">
   <div className="container-fluid">
     <Link to={"/"} className=" d-flex gap-2 navbar-brand">
-      <img src="/images/logo.png"  style={{ height: '40px', width: '40px' }} alt="" />
-      <h4>EDATECHPOINT</h4></Link>
+      <img src="/images/edalogo.png"  style={{ height: '60px', width: '100px' }} alt="" />
+      <h4 className='my-auto'>EDATECHPOINT</h4></Link>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>

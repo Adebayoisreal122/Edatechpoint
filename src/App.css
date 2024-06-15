@@ -78,11 +78,48 @@
 
 
 .carousel-item img {
-    height: 500px; /* Set your desired height */
+    height: 100vh; /* Set your desired height */
     object-fit: cover; /* Ensures the image covers the container without stretching */
     width: 100%; /* Ensures the image takes the full width */
   }
-
+  /* .carousel-item img {
+    width: 100%;
+    height: auto;
+  } */
+  
+  .carousel-caption {
+    text-align: center;
+  }
+  
+  @media (max-width: 768px) {
+    .carousel-caption h5 {
+      font-size: 1.25rem;
+    }
+    .carousel-item img {
+      width: 100%;
+      height: auto;
+    }
+    .carousel-caption p {
+      font-size: 0.875rem;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .carousel-caption {
+      padding: 1rem;
+    }
+    
+    .carousel-caption h5 {
+      font-size: 1rem;
+    }
+    .carousel-item img {
+      width: 100%;
+      height: auto;
+    }
+    .carousel-caption p {
+      font-size: 0.75rem;
+    }
+  }
 
 
   /* FOOTER */
