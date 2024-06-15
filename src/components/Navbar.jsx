@@ -28,7 +28,7 @@ function Navbar() {
   <div className="container-fluid">
     <Link to={"/"} className=" d-flex gap-2 navbar-brand">
       <img src="/images/edalogo.png"  style={{ height: '60px', width: '100px' }} alt="" />
-      <h4 className='my-auto'>EDATECHPOINT</h4></Link>
+    </Link>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
