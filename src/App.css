@@ -119,7 +119,7 @@
   }
   /* HOME */
   .Home {
-    background-image: linear-gradient(90deg, rgba(9, 17, 85, 0.582) 0%, rgba(12, 11, 11, 0.836) 100%), url('/images/proper.webp'); 
+    background-image: linear-gradient(90deg, rgba(9, 17, 85, 0.582) 0%, rgba(12, 11, 11, 0.836) 100%), url('/images/Welcome.jpg'); 
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
