@@ -85,7 +85,7 @@ function Service() {
         </div>
         <div className="col-md-4">
           <div className="card mb-4">
-            <img src="https://via.placeholder.com/400" className="card-img-top" alt="Land Surveying" />
+            <img src="/images/model.jpg" className="card-img-top" alt="Land Surveying" />
             <div className="card-body">
               <h5 className="card-title">Modelling design</h5>
               <p className="card-text">
