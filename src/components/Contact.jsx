@@ -8,9 +8,9 @@ function Contact() {
       <div className="row">
         <div className="col-md-6">
           <h5>Get in Touch</h5>
-          <p>If you have any questions, please feel free to contact us. We are here to help!</p>
+          <p>Edatechpoint Gis & Surveying is committed to exceeding your needs. Questions, comments or special requests? We’d love to hear from you, so don’t hesitate to reach out today.</p>
           <p><i className="fas fa-home mr-3"></i> 123 Main St, Anytown, USA</p>
-          <p><i className="fas fa-envelope mr-3"></i> info@yourcompany.com</p>
+          <p><i className="fas fa-envelope mr-3"></i><a href="mailto:edatechpointgissurveying@gmail.com" className="text-warning">edatechpointgissurveying@gmail.com</a></p>
           <p><i className="fas fa-phone mr-3"></i> +1 234 567 890</p>
         </div>
         <div className="col-md-6">
