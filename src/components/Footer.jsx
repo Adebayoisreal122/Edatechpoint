@@ -2,6 +2,10 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 function Footer() {
+
+  const scrollToTop = () => {
+    window.scrollTo(0, 0);}
+
   return (
     <>
 
@@ -18,12 +22,12 @@ Contact us at email:-<a href="mailto:edatechpointgissurveying@gmail.com" classNa
           </div>
           
           <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-            <h5 className="text-uppercase mb-4 font-weight-bold text-warning">Quick Links</h5>
-            <p><Link to="/" className="text-dark" style={{ textDecoration: 'none' }}>Home</Link></p>
-            <p><Link to="/AboutUs" className="text-dark" style={{ textDecoration: 'none' }}>About Us</Link></p>
-            <p><Link to="/OurServices" className="text-dark" style={{ textDecoration: 'none' }}>Services</Link></p>
-            <p><Link to="/ContactUs" className="text-dark" style={{ textDecoration: 'none' }}>Contact</Link></p>
-          </div>
+  <h5 className="text-uppercase mb-4 font-weight-bold text-warning">Quick Links</h5>
+  <p><Link to="/" className="text-dark" style={{ textDecoration: 'none' }} onClick={scrollToTop}>Home</Link></p>
+  <p><Link to="/AboutUs" className="text-dark" style={{ textDecoration: 'none' }} onClick={scrollToTop}>About Us</Link></p>
+  <p><Link to="/OurServices" className="text-dark" style={{ textDecoration: 'none' }} onClick={scrollToTop}>Services</Link></p>
+  <p><Link to="/ContactUs" className="text-dark" style={{ textDecoration: 'none' }} onClick={scrollToTop}>Contact</Link></p>
+</div>
           
           <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
             <h5 className="text-uppercase mb-4 font-weight-bold text-warning">Contact</h5>
