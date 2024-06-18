@@ -184,9 +184,7 @@
     .Home{
       height: auto;
       width: 100%;
-      background-size: contain;
-    padding-top: 10vh;
-    padding-bottom: 10vh;  
+      background-size: contain; 
     }
     }
   
