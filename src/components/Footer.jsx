@@ -10,23 +10,27 @@ function Footer() {
         <div className="row text-center text-md-left">
           <div className="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
             <h5 className="text-uppercase mb-4 font-weight-bold text-warning">Edatechpont</h5>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum.</p>
+            <p>We offer an assortment of quality services to build and preserve the results image of your documents needed. Our dedicated and experienced professionals specialize in communication of need, Land marketing and Real Estate management.
+
+Contact us at email:-<a href="mailto:edatechpointgissurveying@gmail.com" className="text-warning">edatechpointgissurveying@gmail.com</a> for a free consultation.
+
+ We look forward to hearing from you!</p>
           </div>
           
           <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
             <h5 className="text-uppercase mb-4 font-weight-bold text-warning">Quick Links</h5>
             <p><Link to="/" className="text-dark" style={{ textDecoration: 'none' }}>Home</Link></p>
-            <p><Link to="/" className="text-dark" style={{ textDecoration: 'none' }}>About Us</Link></p>
-            <p><Link to="/" className="text-dark" style={{ textDecoration: 'none' }}>Services</Link></p>
-            <p><Link to="/" className="text-dark" style={{ textDecoration: 'none' }}>Contact</Link></p>
+            <p><Link to="/AboutUs" className="text-dark" style={{ textDecoration: 'none' }}>About Us</Link></p>
+            <p><Link to="/OurServices" className="text-dark" style={{ textDecoration: 'none' }}>Services</Link></p>
+            <p><Link to="/ContactUs" className="text-dark" style={{ textDecoration: 'none' }}>Contact</Link></p>
           </div>
           
           <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
             <h5 className="text-uppercase mb-4 font-weight-bold text-warning">Contact</h5>
-            <p><i className="fas fa-home mr-3"></i> 123 Main St, Anytown, USA</p>
-            <p><i className="fas fa-envelope mr-3"></i> info@Edatechpoint.com</p>
-            <p><i className="fas fa-phone mr-3"></i> +1 234 567 890</p>
-            <p><i className="fas fa-print mr-3"></i> +1 234 567 891</p>
+            <p><i className="fas fa-home mr-3"></i>Plot 1 Adetoun Balogun street <br />Behind Ideal supermarket <br />Bogjie bus stop Ibeju-lekki Lagos</p>
+            <p><i className="fas fa-envelope mr-3"></i> Adekoyaemmanuel2020@gmail.com  <br />edatechpointgissurveying@gmail.com</p>
+            <p><i className="fas fa-phone mr-3"></i> +2348153933758</p>
+            <p><i className="fas fa-print mr-3"></i> +2348143490130</p>
           </div>
         </div>
         
