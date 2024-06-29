@@ -24,7 +24,7 @@ function Navbar() {
     <>
     
 
-<nav className="navbar navbar-expand-lg border border-bottom border-body p-1 bg-primary">
+{/* <nav className="navbar navbar-expand-lg border border-bottom border-body p-1 bg-primary">
   <div className="container-fluid">
     <Link to={"/"} className=" d-flex gap-2 navbar-brand">
       <img src="/images/edalogo.png"  style={{ height: '60px', width: '100px' }} alt="" />
@@ -48,7 +48,7 @@ function Navbar() {
                 </div>
     </div>
   </div>
-</nav>
+</nav> */}
     </>
   )
 }

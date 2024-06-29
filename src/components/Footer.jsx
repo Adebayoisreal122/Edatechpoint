@@ -9,7 +9,7 @@ function Footer() {
   return (
     <>
 
-<footer className="bg-light text-dark pt-5 pb-4">
+{/* <footer className="bg-light text-dark pt-5 pb-4">
       <div className="container text-center text-md-left">
         <div className="row text-center text-md-left">
           <div className="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
@@ -73,7 +73,7 @@ Contact us at email:-<a href="mailto:edatechpointgissurveying@gmail.com" classNa
           </div>
         </div>
       </div>
-    </footer>
+    </footer> */}
 
     </>
   )
