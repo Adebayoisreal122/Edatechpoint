@@ -4,7 +4,7 @@ function Home() {
   return (
     <>
 
-{/* <div className=" Home mb-3 ">
+<div className=" Home mb-3 ">
 
 <div className='container w-85 text-center p-5 '>
 <h1 className='text-light welcome'>Welcome to Edatechpoint Gis & Surveying!</h1>
@@ -57,13 +57,13 @@ Contact us at email:- <a href="mailto:edatechpointgissurveying@gmail.com" classN
       </div>
     </div>
   </div>
-</div> */}
+</div>
 
 
-<center className='Bod'><div className='current container d-flex justify-contents-center'>
+{/* <center className='Bod'><div className='current container d-flex justify-contents-center'>
   <h1 className='high'>This page is under construction</h1>
   </div>
-  </center>
+  </center> */}
 
 
     </>
